@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-3cfb730f.js";const r=new IntersectionObserver(e=>{e.forEach(o=>{o.isIntersecting&&o.target.classList.add("show")})}),t=document.querySelectorAll(".hidden");t.forEach(e=>r.observe(e));window.onbeforeunload=()=>{for(const e of document.getElementsByTagName("form"))e.reset()};
